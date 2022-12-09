@@ -9,7 +9,7 @@ env:
   LOCATION: centralIndia
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: a792e019-436e-41ea-a01a-3b03e358d72a
-  WEBAPP-NAME: az400-webapp-Vivo
+  WEBAPP-Amy: az400-webapp-Amy
 
 
 jobs:
