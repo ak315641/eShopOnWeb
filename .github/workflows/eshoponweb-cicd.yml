@@ -70,8 +70,7 @@ jobs:
         
    #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
     - name: Azure Login
-      uses: azure/ak315641@gmail.com
-      #login@v1
+      uses: azure/login@v1
       with:
         creds:  ${{ secrets.AZURE_CREDENTIALS }}
            
