@@ -72,8 +72,8 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-        creds:  ${{ secrets.AZURE_CREDENTIALS }}
-        enable-AzPSSession: false
+        creds:  ${{ cXl8Q~aoBeixsKpPRkF69AgbMbEX4qU4g0nDmc0g.AZURE_CREDENTIALS }}
+        #enable-AzPSSession: false
            
     # Deploy Azure WebApp using Bicep file
     - name: deploy
